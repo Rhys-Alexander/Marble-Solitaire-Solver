@@ -78,6 +78,7 @@ public class Main {
             moves[i] = moveI;
             i++;
         }
+        display(startingBoard);
         for (int moveIndex: moves){
             try {
                 Move move = POSS_MOVES[moveIndex];
