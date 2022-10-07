@@ -89,7 +89,6 @@ public class Main {
             display(startingBoard);
         }
     }
-    //          TODO move making function
 
     public static void main(String[] args) {
         solve();
