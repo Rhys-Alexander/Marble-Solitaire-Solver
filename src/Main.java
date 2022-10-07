@@ -80,7 +80,6 @@ public class Main {
             i++;
         }
         display(startingBoard);
-
         for (int moveIndex : moves) {
             Move move = POSS_MOVES[moveIndex];
             startingBoard[move.start] = false;
