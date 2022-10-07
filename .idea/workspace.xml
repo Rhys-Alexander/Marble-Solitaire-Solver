@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc28173c-cfb3-4080-b610-669be6b9c46f" name="Changes" comment="readability refactor">
+    <list default="true" id="fc28173c-cfb3-4080-b610-669be6b9c46f" name="Changes" comment="fixed commit error">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,14 +22,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/rhys/IdeaProjects/marble_solitaire_solver"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rhys/IdeaProjects/marble_solitaire_solver&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -53,7 +54,8 @@
       <updated>1664895502817</updated>
       <workItem from="1664895504095" duration="8370000" />
       <workItem from="1665042967686" duration="2032000" />
-      <workItem from="1665143032655" duration="4971000" />
+      <workItem from="1665143032655" duration="5294000" />
+      <workItem from="1665151506625" duration="1471000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1664919012600</created>
@@ -83,7 +85,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665147911744</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="todos">
+      <created>1665148120010</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665148120010</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed commit error">
+      <created>1665148185086</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665148185086</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixed commit error">
+      <created>1665148334037</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665148334037</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +128,8 @@
     <MESSAGE value="fixed board comparison" />
     <MESSAGE value="prints original board" />
     <MESSAGE value="readability refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="readability refactor" />
+    <MESSAGE value="todos" />
+    <MESSAGE value="fixed commit error" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed commit error" />
   </component>
 </project>
