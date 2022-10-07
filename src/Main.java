@@ -54,7 +54,6 @@ public class Main {
     public static void display(boolean[] currentBoard) {
         int[] LINES = {3, 3, 7, 7, 7, 3, 3};
         int i = 0;
-        System.out.println();
         for (int line : LINES) {
             StringBuilder txt = new StringBuilder();
             if (line == 3) {
@@ -70,6 +69,7 @@ public class Main {
             }
             System.out.println(txt);
         }
+        System.out.println();
     }
 
     public static void displaySolution() {
@@ -80,6 +80,7 @@ public class Main {
             i++;
         }
         display(startingBoard);
+
         for (int moveIndex : moves) {
             Move move = POSS_MOVES[moveIndex];
             startingBoard[move.start] = false;
@@ -88,7 +89,7 @@ public class Main {
             display(startingBoard);
         }
     }
-
+    //          TODO move making function
 
     public static void main(String[] args) {
         solve();
