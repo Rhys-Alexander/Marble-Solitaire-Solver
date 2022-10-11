@@ -58,9 +58,10 @@ public class Main {
         }
     }
 
-    public static void display() {
+    public static String getBoardString() {
         int[] LINES = {3, 3, 7, 7, 7, 3, 3};
         int i = 0;
+        StringBuilder boardString = new StringBuilder();
         for (int line : LINES) {
             StringBuilder txt = new StringBuilder();
             if (line == 3) {
@@ -74,9 +75,12 @@ public class Main {
                 }
                 i++;
             }
-            System.out.println(txt);
+            boardString.append(txt).append("\n");
         }
-        System.out.println();
+        return String.valueOf(boardString);
+    }
+    public static void display(){
+        System.out.println(getBoardString());
     }
 
     public static void displaySolution() {

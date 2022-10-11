@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc28173c-cfb3-4080-b610-669be6b9c46f" name="Changes" comment="fixed commit error">
+    <list default="true" id="fc28173c-cfb3-4080-b610-669be6b9c46f" name="Changes" comment="compartmentalised functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -55,7 +55,10 @@
       <workItem from="1664895504095" duration="8370000" />
       <workItem from="1665042967686" duration="2032000" />
       <workItem from="1665143032655" duration="5294000" />
-      <workItem from="1665151506625" duration="1471000" />
+      <workItem from="1665151506625" duration="2616000" />
+      <workItem from="1665365357222" duration="632000" />
+      <workItem from="1665500233569" duration="1544000" />
+      <workItem from="1665509261524" duration="1632000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1664919012600</created>
@@ -106,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665148334037</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="compartmentalised functions">
+      <created>1665153374645</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665153374645</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +140,7 @@
     <MESSAGE value="readability refactor" />
     <MESSAGE value="todos" />
     <MESSAGE value="fixed commit error" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed commit error" />
+    <MESSAGE value="compartmentalised functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="compartmentalised functions" />
   </component>
 </project>
