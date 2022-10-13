@@ -13,9 +13,9 @@ public class Main {
         }
     }
 
-    static boolean[] startingBoard = {true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true};
-    final static boolean[] complete_board = {false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false};
-    static boolean[] board = Arrays.copyOf(startingBoard, startingBoard.length);
+    final static boolean[] STARTING_BOARD = {true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true};
+    final static boolean[] COMPLETE_BOARD = {false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false};
+    static boolean[] board = Arrays.copyOf(STARTING_BOARD, STARTING_BOARD.length);
     static Deque<Integer> stack = new LinkedList<>();
     final static Move[] POSS_MOVES = {new Move(0, 3, 8), new Move(0, 1, 2), new Move(1, 4, 9), new Move(2, 5, 10), new Move(2, 1, 0), new Move(3, 8, 15), new Move(3, 4, 5), new Move(4, 9, 16), new Move(5, 10, 17), new Move(5, 4, 3), new Move(6, 13, 20), new Move(6, 7, 8), new Move(7, 14, 21), new Move(7, 8, 9), new Move(8, 15, 22), new Move(8, 3, 0), new Move(8, 9, 10), new Move(8, 7, 6), new Move(9, 16, 23), new Move(9, 4, 1), new Move(9, 10, 11), new Move(9, 8, 7), new Move(10, 17, 24), new Move(10, 5, 2), new Move(10, 11, 12), new Move(10, 9, 8), new Move(11, 18, 25), new Move(11, 10, 9), new Move(12, 19, 26), new Move(12, 11, 10), new Move(13, 14, 15), new Move(14, 15, 16), new Move(15, 22, 27), new Move(15, 8, 3), new Move(15, 16, 17), new Move(15, 14, 13), new Move(16, 23, 28), new Move(16, 9, 4), new Move(16, 17, 18), new Move(16, 15, 14), new Move(17, 24, 29), new Move(17, 10, 5), new Move(17, 18, 19), new Move(17, 16, 15), new Move(18, 17, 16), new Move(19, 18, 17), new Move(20, 13, 6), new Move(20, 21, 22), new Move(21, 14, 7), new Move(21, 22, 23), new Move(22, 27, 30), new Move(22, 15, 8), new Move(22, 23, 24), new Move(22, 21, 20), new Move(23, 28, 31), new Move(23, 16, 9), new Move(23, 24, 25), new Move(23, 22, 21), new Move(24, 29, 32), new Move(24, 17, 10), new Move(24, 25, 26), new Move(24, 23, 22), new Move(25, 18, 11), new Move(25, 24, 23), new Move(26, 19, 12), new Move(26, 25, 24), new Move(27, 22, 15), new Move(27, 28, 29), new Move(28, 23, 16), new Move(29, 24, 17), new Move(29, 28, 27), new Move(30, 27, 22), new Move(30, 31, 32), new Move(31, 28, 23), new Move(32, 29, 24), new Move(32, 31, 30)};
 
@@ -44,7 +44,7 @@ public class Main {
                     break;
                 }
             }
-            if (Arrays.equals(board, complete_board)) {
+            if (Arrays.equals(board, COMPLETE_BOARD)) {
                 displaySolution();
                 return;
             } else if (no_moves_found) {
@@ -84,7 +84,7 @@ public class Main {
     }
 
     public static void displaySolution() {
-        board = Arrays.copyOf(startingBoard, startingBoard.length);
+        board = Arrays.copyOf(STARTING_BOARD, STARTING_BOARD.length);
         int[] moves = new int[stack.size()];
         int i = 0;
         for (int moveI : stack) {
